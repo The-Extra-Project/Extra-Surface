@@ -26,6 +26,27 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.image-container {
+  flex: 1;
+  padding: 20px;
+
+}
+
+.form-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.form-container h2 {
+  margin-top: 0;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
